@@ -31,7 +31,7 @@ REACT_APP_API_URL=https://localhost:5001/
 less
 
 
-Asegúrese de reemplazar `https://localhost:5001/` con la URL de su instancia de WebApi-ChallengeTota si es diferente.
+Asegúrese de reemplazar `https://localhost:5001/` con la URL de su instancia de WebApi-ChallengeTotal si es diferente.
 
 3. **Instalar las dependencias**
 
