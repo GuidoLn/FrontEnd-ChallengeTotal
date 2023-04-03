@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# FrontEnd-ChallengeTotal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenido al repositorio de FrontEnd-ChallengeTotal, la aplicación frontend de WebApi-ChallengeTota desarrollada en React. Esta aplicación le permitirá interactuar con la API RESTful de WebApi-ChallengeTota a través de una interfaz de usuario amigable.
 
-## Available Scripts
+## Requisitos previos
 
-In the project directory, you can run:
+Antes de comenzar, asegúrese de tener instalado lo siguiente en su máquina:
 
-### `npm start`
+1. [Node.js](https://nodejs.org/) (versión 12 o superior)
+2. [Yarn](https://yarnpkg.com/) o [npm](https://www.npmjs.com/) (gestor de paquetes)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Pasos para levantar la aplicación
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clonar el repositorio**
 
-### `npm test`
+   Abra una terminal y ejecute el siguiente comando para clonar el repositorio de FrontEnd-ChallengeTotal:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/GuidoLn/FrontEnd-ChallengeTotal.git
 
-### `npm run build`
+2. **Configurar el archivo .env**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Navegue hasta el directorio del proyecto clonado y cree un archivo llamado `.env` en la raíz del proyecto. A continuación, configure la variable de entorno `REACT_APP_API_URL` con la URL de la API de WebApi-ChallengeTota:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+REACT_APP_API_URL=https://localhost:5001/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Asegúrese de reemplazar `https://localhost:5001/` con la URL de su instancia de WebApi-ChallengeTota si es diferente.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Instalar las dependencias**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Vuelva a la terminal y navegue hasta el directorio del proyecto clonado. Ejecute el siguiente comando para instalar las dependencias del proyecto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+markdown
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# FrontEnd-ChallengeTotal
 
-## Learn More
+Bienvenido al repositorio de FrontEnd-ChallengeTotal, la aplicación frontend de WebApi-ChallengeTota desarrollada en React. Esta aplicación le permitirá interactuar con la API RESTful de WebApi-ChallengeTota a través de una interfaz de usuario amigable.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Requisitos previos
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Antes de comenzar, asegúrese de tener instalado lo siguiente en su máquina:
 
-### Code Splitting
+1. [Node.js](https://nodejs.org/) (versión 12 o superior)
+2. [Yarn](https://yarnpkg.com/) o [npm](https://www.npmjs.com/) (gestor de paquetes)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Pasos para levantar la aplicación
 
-### Analyzing the Bundle Size
+1. **Clonar el repositorio**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   Abra una terminal y ejecute el siguiente comando para clonar el repositorio de FrontEnd-ChallengeTotal:
 
-### Making a Progressive Web App
+git clone https://github.com/GuidoLn/FrontEnd-ChallengeTotal.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+markdown
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. **Configurar el archivo .env**
 
-### Deployment
+Navegue hasta el directorio del proyecto clonado y cree un archivo llamado `.env` en la raíz del proyecto. A continuación, configure la variable de entorno `REACT_APP_API_URL` con la URL de la API de WebApi-ChallengeTota:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+REACT_APP_API_URL=https://localhost:5001/
 
-### `npm run build` fails to minify
+less
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Asegúrese de reemplazar `https://localhost:5001/` con la URL de su instancia de WebApi-ChallengeTota si es diferente.
+
+3. **Instalar las dependencias**
+
+Vuelva a la terminal y navegue hasta el directorio del proyecto clonado. Ejecute el siguiente comando para instalar las dependencias del proyecto:
+
+cd FrontEnd-ChallengeTotal
+yarn install
+
+Si prefiere utilizar npm, ejecute:
+
+npm install
+
+4. **Ejecutar la aplicación**
+
+Ejecute el siguiente comando para iniciar la aplicación en modo de desarrollo:
+
+yarn start
+
+Si prefiere utilizar npm, ejecute:
+
+npm start
+
+Una vez que la aplicación esté en ejecución, puede acceder a ella a través de la dirección `http://localhost:3000/` en su navegador web.
+
+¡Felicitaciones! Ahora tiene la aplicación FrontEnd-ChallengeTotal en ejecución y está listo para interactuar con la API RESTful de WebApi-ChallengeTota a través de una interfaz de usuario amigable.
+Este es el archivo README en formato Markdown con las etiquetas apropiadas. Puede copiar y pegar este contenido en su archivo README.md en el repositorio de GitHub y se mostrará con el estilo correcto.
