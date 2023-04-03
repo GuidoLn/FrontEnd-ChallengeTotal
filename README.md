@@ -1,40 +1,8 @@
-# FrontEnd-ChallengeTotal
 
-Bienvenido al repositorio de FrontEnd-ChallengeTotal, la aplicación frontend de WebApi-ChallengeTota desarrollada en React. Esta aplicación le permitirá interactuar con la API RESTful de WebApi-ChallengeTota a través de una interfaz de usuario amigable.
-
-## Requisitos previos
-
-Antes de comenzar, asegúrese de tener instalado lo siguiente en su máquina:
-
-1. [Node.js](https://nodejs.org/) (versión 12 o superior)
-2. [Yarn](https://yarnpkg.com/) o [npm](https://www.npmjs.com/) (gestor de paquetes)
-
-## Pasos para levantar la aplicación
-
-1. **Clonar el repositorio**
-
-   Abra una terminal y ejecute el siguiente comando para clonar el repositorio de FrontEnd-ChallengeTotal:
-
-git clone https://github.com/GuidoLn/FrontEnd-ChallengeTotal.git
-
-2. **Configurar el archivo .env**
-
-Navegue hasta el directorio del proyecto clonado y cree un archivo llamado `.env` en la raíz del proyecto. A continuación, configure la variable de entorno `REACT_APP_API_URL` con la URL de la API de WebApi-ChallengeTota:
-
-REACT_APP_API_URL=https://localhost:5001/
-
-
-Asegúrese de reemplazar `https://localhost:5001/` con la URL de su instancia de WebApi-ChallengeTota si es diferente.
-
-3. **Instalar las dependencias**
-
-Vuelva a la terminal y navegue hasta el directorio del proyecto clonado. Ejecute el siguiente comando para instalar las dependencias del proyecto:
-
-markdown
 
 # FrontEnd-ChallengeTotal
 
-Bienvenido al repositorio de FrontEnd-ChallengeTotal, la aplicación frontend de WebApi-ChallengeTota desarrollada en React. Esta aplicación le permitirá interactuar con la API RESTful de WebApi-ChallengeTota a través de una interfaz de usuario amigable.
+Bienvenido al repositorio de FrontEnd-ChallengeTotal, la aplicación frontend de WebApi-ChallengeTota desarrollada en React. Esta aplicación le permitirá interactuar con la API RESTful de WebApi-ChallengeTotal a través de una interfaz de usuario amigable.
 
 ## Requisitos previos
 
@@ -88,5 +56,5 @@ npm start
 
 Una vez que la aplicación esté en ejecución, puede acceder a ella a través de la dirección `http://localhost:3000/` en su navegador web.
 
-¡Felicitaciones! Ahora tiene la aplicación FrontEnd-ChallengeTotal en ejecución y está listo para interactuar con la API RESTful de WebApi-ChallengeTota a través de una interfaz de usuario amigable.
-Este es el archivo README en formato Markdown con las etiquetas apropiadas. Puede copiar y pegar este contenido en su archivo README.md en el repositorio de GitHub y se mostrará con el estilo correcto.
+¡Felicitaciones! Ahora tiene la aplicación FrontEnd-ChallengeTotal en ejecución y está listo para interactuar con la API RESTful de WebApi-ChallengeTotal a través de una interfaz de usuario amigable.
+
